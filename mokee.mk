@@ -27,6 +27,10 @@ $(call inherit-product, vendor/mk/config/common.mk)
 PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    device/vivo/x7/recovery/root/init.recovery.qcom.rc:root/init.recovery.qcom.rc
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := x7
 PRODUCT_NAME := mk_x7

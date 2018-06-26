@@ -1,0 +1,2 @@
+on init
+    symlink /dev/block/platform/soc.0 /dev/block/bootdevice
