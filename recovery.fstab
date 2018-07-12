@@ -25,9 +25,3 @@
 
 # Modem
 #/modem		emmc	/dev/block/bootdevice/by-name/modem	flags=backup=1;display="Modem"
-
-# EFS backup/restore
-#/efs1		emmc	/dev/block/bootdevice/by-name/modemst1	flags=backup=1;display="EFS"
-#/efs2		emmc	/dev/block/bootdevice/by-name/modemst2	flags=backup=1;subpartitionof=/efs1
-#/efsg		emmc	/dev/block/bootdevice/by-name/fsg	flags=backup=1;subpartitionof=/efs1
-#/efsc		emmc	/dev/block/bootdevice/by-name/fsc	flags=backup=1;subpartitionof=/efs1
